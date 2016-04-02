@@ -47,14 +47,12 @@ body {
 #header-navigation .navbar-nav > li {
     color: #ffffff;
     padding-top: 15px;
-    text-align: center;
 }
 #header-navigation .navbar-nav > li > a {
     font-size: 1.5em;
     color: #ffffff;
     margin: 0px;
     padding-bottom: 15px;
-    text-align: center;
 }
 #header-navigation .navbar-nav > li > a:hover {
     color: #FFAB40; /** Highlight Color **/
