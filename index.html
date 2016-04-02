@@ -4,13 +4,73 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Coursera (HTML, CSS, Javascript) Assignment 3</title>
+    <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
   </head>
   <body>
-    <h1>Coursera (HTML, CSS, Javascript) Assigment 3</h1>
+    <header>
+      <nav id="header-navigation" class="navbar navbar-default navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <div class="navbar-brand">
+              <a  href="./index.html"><h1>food, llc</h1></a>
+            </div> <!-- .navbar-brand -->
 
-    <script src="./js/jquery-2.2.2.min.js"</script>
-    <script src="./js/bootstrap.min.js"</script>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#drop-down-menu" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+          </div> <!-- .navbar-header -->
+
+          <div id="drop-down-menu" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li><a href="#sectionChicken">Chicken</a><hr></li>
+              <li><a href="#sectionBeef">Beef</a><hr></li>
+              <li><a href="#sectionSushi">Sushi</a></li>
+            </ul><!-- #nav-list -->
+          </div> <!-- #drop-down-menu .collapse .navbar-collapse -->
+
+        </div> <!-- .container-->
+      </nav>
+    </header>
+
+    <h2 class="text-center">Our Menu</h2>
+
+    <div id="customSection" class="container">
+      <section id="sectionChicken" class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+        <div>
+          <h3 class="text-center">Chicken</h3>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor est et varius mollis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce iaculis nisi tortor, ut tincidunt nulla blandit at. Morbi maximus nibh id felis dictum posuere. Sed egestas lobortis sem, quis luctus odio elementum nec. Suspendisse congue vehicula feugiat. Duis semper vestibulum ligula, sed ultricies sem bibendum ut. In ligula quam, ultricies accumsan elit ut, tempor pellentesque sem. Phasellus sed pulvinar magna.</p>
+          <p class="text-center">Aliquam odio urna, vestibulum non justo in, laoreet rhoncus enim. Donec sollicitudin est eget pharetra tincidunt. Maecenas sit amet lorem eget ipsum consectetur dignissim. Sed ullamcorper eros non porttitor condimentum. Nunc dictum augue a hendrerit hendrerit. Nam dictum, quam eu fermentum consequat, nisl ipsum sagittis est, sit amet ullamcorper ante est vitae augue. Fusce eu maximus mi. Nunc hendrerit interdum laoreet. Ut vehicula nibh nec turpis posuere, a commodo justo rhoncus. In vitae tortor a nibh volutpat consequat eu sed neque. Donec ac dui magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed eu rhoncus justo. Aliquam at ultrices mi. Etiam vel lorem vestibulum nunc rhoncus pretium nec sit amet sapien.</p>
+          <a class="visible-xs visible-sm" href="#"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span></a>
+        </div>
+      </section>
+
+      <section id="sectionBeef" class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+        <div>
+          <h3 class="text-center">Beef</h3>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor est et varius mollis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce iaculis nisi tortor, ut tincidunt nulla blandit at. Morbi maximus nibh id felis dictum posuere. Sed egestas lobortis sem, quis luctus odio elementum nec. Suspendisse congue vehicula feugiat. Duis semper vestibulum ligula, sed ultricies sem bibendum ut. In ligula quam, ultricies accumsan elit ut, tempor pellentesque sem. Phasellus sed pulvinar magna.</p>
+          <p class="text-center">Aliquam odio urna, vestibulum non justo in, laoreet rhoncus enim. Donec sollicitudin est eget pharetra tincidunt. Maecenas sit amet lorem eget ipsum consectetur dignissim. Sed ullamcorper eros non porttitor condimentum. Nunc dictum augue a hendrerit hendrerit. Nam dictum, quam eu fermentum consequat, nisl ipsum sagittis est, sit amet ullamcorper ante est vitae augue. Fusce eu maximus mi. Nunc hendrerit interdum laoreet. Ut vehicula nibh nec turpis posuere, a commodo justo rhoncus. In vitae tortor a nibh volutpat consequat eu sed neque. Donec ac dui magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed eu rhoncus justo. Aliquam at ultrices mi. Etiam vel lorem vestibulum nunc rhoncus pretium nec sit amet sapien.</p>
+          <a class="visible-xs visible-sm" href="#"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span></a>
+        </div>
+      </section>
+
+      <section id="sectionSushi" class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+        <div>
+          <h3 class="text-center">Sushi</h3>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor est et varius mollis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce iaculis nisi tortor, ut tincidunt nulla blandit at. Morbi maximus nibh id felis dictum posuere. Sed egestas lobortis sem, quis luctus odio elementum nec. Suspendisse congue vehicula feugiat. Duis semper vestibulum ligula, sed ultricies sem bibendum ut. In ligula quam, ultricies accumsan elit ut, tempor pellentesque sem. Phasellus sed pulvinar magna.</p>
+          <p class="text-center">Aliquam odio urna, vestibulum non justo in, laoreet rhoncus enim. Donec sollicitudin est eget pharetra tincidunt. Maecenas sit amet lorem eget ipsum consectetur dignissim. Sed ullamcorper eros non porttitor condimentum. Nunc dictum augue a hendrerit hendrerit. Nam dictum, quam eu fermentum consequat, nisl ipsum sagittis est, sit amet ullamcorper ante est vitae augue. Fusce eu maximus mi. Nunc hendrerit interdum laoreet. Ut vehicula nibh nec turpis posuere, a commodo justo rhoncus. In vitae tortor a nibh volutpat consequat eu sed neque. Donec ac dui magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed eu rhoncus justo. Aliquam at ultrices mi. Etiam vel lorem vestibulum nunc rhoncus pretium nec sit amet sapien.</p>
+          <a class="visible-xs visible-sm" href="#"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span></a>
+        </div>
+      </section>
+    </div> <!-- #customSection .container -->
+
+    <script src="./js/jquery-2.2.2.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
   </body>
 </html>

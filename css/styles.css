@@ -1,1 +1,108 @@
-
+body {
+    font-size: 24px;
+    color: #000000;
+    font-family: 'Special Elite', cursive;
+}
+#header-navigation
+{
+    background-color: #0288D1; /** Header Color **/
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand
+{
+    padding: 15px 15px 25px 15px;
+    height: 100px;
+}
+.navbar-brand h1 {
+    color: #ffffff;
+    font-size:3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000000;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+#drop-down-menu
+{
+    background-color: #4fc3f7; /** Secondary Color **/
+}
+.navbar-header button, .navbar-header button.navbar-default, .navbar-header button.navbar-toggle  {
+    margin-top: 15px;
+    height: 60px;
+    width: 60px;
+    background-color: #4fc3f7; /** Secondary Color **/
+    border: solid 2px white;
+}
+.navbar-header > button > .icon-bar
+{
+    width: 100%;
+    border: solid 2px white;
+}
+.navbar-header button.navbar-toggle:focus, .navbar-header button.navbar-toggle:hover {
+    background-color: #FFAB40; /** Highlight Color **/
+}
+#header-navigation .navbar-nav > li {
+    color: #ffffff;
+    padding-top: 15px;
+    text-align: center;
+}
+#header-navigation .navbar-nav > li > a {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin: 0px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+#header-navigation .navbar-nav > li > a:hover {
+    color: #FFAB40; /** Highlight Color **/
+}
+#header-navigation .navbar-nav > li > hr
+{
+    width: 90%;
+    margin: 0px auto 0px auto;
+}
+body > h2
+{
+    font-size: 2em;
+}
+#customSection
+{
+    margin-bottom: 25px;
+}
+#customSection section > div
+{
+    position: relative;
+    background-color: #03A9F4; /** Primary Color **/
+}
+#customSection section > div > h3
+{
+    color: #fff;
+    padding: 15px 0px 15px 0px;
+    font-weight: bold;
+    font-size: 1.75em;
+}
+#customSection section > div > p
+{
+    color: #fff;
+    padding: 0px 15px 15px 15px;
+}
+#customSection section > div > a
+{
+    position: absolute;
+    right: 10px;
+    bottom: -5px;
+    color: #fff;
+}
+#customSection section > div > a:hover, #customSection section > div > a:focus
+{
+    color: #FFAB40; /** Highlight Color **/
+}
+/** Since  @media (min-width: 768px) .navbar-collapse.collapse has display:block!important; **/
+@media (min-width : 768px) {
+    #drop-down-menu {
+        display: none!important;
+    }
+}
